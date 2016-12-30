@@ -1,9 +1,17 @@
+@import "helpers.scss";
+
 body {
 	background-color: #ebe9ea;
 }
 
 .jumbotron {
-	.imagen {
+	&.corp{
+		height: 450px;
+		.imagen {
 		width: 100%;
+		background-image: url("http://www.luisan.net/identidad-corporativa/imagenes-imagen-corporativa/imagen-corporativa.jpg");
+		height: 350px;
+		}
 	}
+
 }

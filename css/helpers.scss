@@ -1,0 +1,71 @@
+.textoRojo {
+	color: red;
+	font-weight: bold;
+}
+
+.textoAzul {
+	color: blue;
+	font-weight: bold;
+}
+.gris {
+	color: #999;
+	font-size: 12px;
+}
+
+.precio {
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+ul {
+	list-style: none;
+	&.social{
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		text-align: center;
+		li {
+			width: 50px;
+			text-align: center;
+
+		}
+
+	}
+}
+
+.ion-social-facebook {
+	font-weight: bold;
+	color: #999;
+	font-size: 30px;
+	text-decoration: none;
+
+}
+
+.ion-social-linkedin {
+	font-weight: bold;
+	color: #999;
+	font-size: 30px;
+	text-decoration: none;
+
+
+}
+
+.ion-social-pinterest {
+	font-weight: bold;
+	color: #999;
+	font-size: 30px;
+	text-decoration: none;
+
+}
+
+h1 {
+	color: #0959a0;
+	text-transform: uppercase;
+}
+
+.containerHeader {
+	display:flex;
+	align-items: center;
+
+}
